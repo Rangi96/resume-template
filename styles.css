@@ -1,0 +1,44 @@
+@media print {
+    body {
+        width: 8.5in;
+        height: 11in;
+        margin: 0;
+        padding: 0.5in;
+    }
+}
+
+.resume-container {
+    font-family: Arial, sans-serif;
+}
+
+.section-heading {
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
+}
+
+.experience-item {
+    margin-bottom: 1rem;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.125rem;
+    line-height: 1.2;
+}
+
+.certification-item {
+    margin-bottom: 0.25rem;
+}
+
+.education-item {
+    margin-bottom: 0.25rem;
+}

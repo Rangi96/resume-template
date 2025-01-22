@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Jorge Rangel - Resume</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @media print {
-            body {
-                width: 8.5in;
-                height: 11in;
-                margin: 0;
-                padding: 0.5in;
-            }
-        }
-    </style>
 </head>
 <body class="max-w-[8.5in] mx-auto p-4 bg-white text-sm">
-    <!-- Same content as resume.html -->
+    <div class="resume-container">
+        <header class="mb-3 text-center">
+            <h1 class="text-xl font-bold mb-1">Jorge Rangel</h1>
+            <div class="text-xs text-gray-600">Ph: 561-306-2825 | jorgerangelcarvajal@gmail.com | LinkedIn.com/jorgerangelcarvajal | bit.ly/4czdnQn | Orlando, FL</div>
+        </header>
+
+        <div id="content"></div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
